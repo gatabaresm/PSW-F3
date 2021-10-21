@@ -107,12 +107,45 @@
         </div>
       </nav>
 
-    <main class="container">
+      <script>
+        function calcular(){
+            var a = document.f1.a.value;
+            var b = document.f1.b.value;
+            var c = document.f1.c.value;
+            var r1 = document.f1.d.value;
+            var r2 = document.f1.e.value;
+          r1=parseFloat(a)+(parseFloat(a)*(parseFloat(b)/100))+(parseFloat(a)*(parseFloat(c)/100));
+          r2=parseFloat(a)*(parseFloat(b)/100);
+          document.f1.d.value=r1;
+          document.f1.e.value=r2;
+        }
+         </script>
+
+      <main class="container">
         <section class="row">
-            <article class="col-lg-12">
-                <h2 style="text-align: center;">Módulo "Cálculo Valor de Venta de Producto"</h2><br/>
+            <h2 style="text-align: center;">Cálculo del Valor de Venta del Producto</h2><br/>
+            <article class="col-lg-4"></article>
+            <article class="col-lg-4">
+              <form name="f1" action="calculadora.html" method="POST">
+                  <label for="Valor de la Compra">Valor de la compra $:</label><br/>
+                  <input type="text" class="form-control" id="a" placeholder="Ingrese el valor de la compra" name="a">
+                  <label for="% Utilidad">% de utilidad:</label><br/>
+                  <input type="text" class="form-control" id="b" placeholder="Ingrese el porcentaje de la utilidad" name="b">
+                  <label for="% IVA">% del IVA:</label><br/>
+                  <input type="text" class="form-control" id="c" placeholder="Ingrese el porcentaje del IVA" name="c">
+                  <br/>
+                  <input type="Button" name="" value="Calcular" onclick="calcular()" class="btn btn-primary">
+                  <input type="Button" name="" value="Limpiar" onclick="reset()" class="btn btn-primary">
+                  <br/><br/>
+                  <label for="resultado1">Valor de venta $:</label>
+                  <input type="text" class="form-control" id="d" name="d" placeholder="Este es el precio de venta">
+                  <label for="resultado2">Ganancia $:</label>
+                  <input type="text" class="form-control" id="e" name="e" placeholder="Este es la Ganancia">
+                  <br/>
+                </form>
             </article>
-         </section>
+            <article class="col-lg-4"></article>
+          </section>
     </main>
 
     <footer>
