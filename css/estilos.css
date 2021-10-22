@@ -244,3 +244,79 @@ header {
       flex-direction: column;
     }
   }
+
+/*Estilos formulario Consultar*/
+.consultar-producto{
+    width:800px;
+    padding: 30px;
+    margin:auto;
+    margin-top: 10;
+    border-radius: 4px;
+    font-family: "calibri";
+    background-color: rgb(219, 198, 141);
+}
+
+.boton {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    color: white;
+    margin: 16px 0;
+    font-size: 20px;
+    background-color: rgb(43, 42, 42);
+}
+
+.controles_consultar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: "calibri";
+    font-size: 18px;
+  
+}
+
+.consultar-producto h4 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
+
+/*Estilos formulario Borrar*/
+.borrar-producto{
+    width:800px;
+    padding: 30px;
+    margin:auto;
+    margin-top: 10;
+    border-radius: 4px;
+    font-family: "calibri";
+    background-color: rgb(219, 198, 141);
+}
+
+.boton {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    color: white;
+    margin: 16px 0;
+    font-size: 20px;
+    background-color: rgb(43, 42, 42);
+}
+
+.controles_borrar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: "calibri";
+    font-size: 18px;
+  
+}
+
+.borrar-producto h4 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
