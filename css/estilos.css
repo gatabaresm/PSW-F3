@@ -245,50 +245,124 @@ header {
     }
   }
 
-  /* aporte de Guillermo Castaño*/
+/*Estilos formulario Consultar*/
+.consultar-producto{
+    width:800px;
+    padding: 30px;
+    margin:auto;
+    margin-top: 10;
+    border-radius: 4px;
+    font-family: "calibri";
+    background-color: rgb(219, 198, 141);
+}
+
+.boton {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    color: white;
+    margin: 16px 0;
+    font-size: 20px;
+    background-color: rgb(43, 42, 42);
+}
+
+.controles_consultar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: "calibri";
+    font-size: 18px;
+  
+}
+
+.consultar-producto h4 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
+
+/*Estilos formulario Borrar*/
+.borrar-producto{
+    width:800px;
+    padding: 30px;
+    margin:auto;
+    margin-top: 10;
+    border-radius: 4px;
+    font-family: "calibri";
+    background-color: rgb(219, 198, 141);
+}
+
+.boton {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    color: white;
+    margin: 16px 0;
+    font-size: 20px;
+    background-color: rgb(43, 42, 42);
+}
+
+.controles_borrar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: "calibri";
+    font-size: 18px;
+  
+}
+
+.borrar-producto h4 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
+
+/* aporte de Guillermo Castaño*/
   /*estilos de pagina "registrar producto"*/*
   
   .registrar-producto{
-      width:400px;
-      padding: 30px;
-      margin:auto;
-      margin-top: 10;
-      border-radius: 4px;
-      font-family: "calibri";
-      background-color: rgb(219, 198, 141);
+    width:400px;
+    padding: 30px;
+    margin:auto;
+    margin-top: 10;
+    border-radius: 4px;
+    font-family: "calibri";
+    background-color: rgb(219, 198, 141);
 
-  }
+}
 
-  .registrar-producto h4 {
-      font-size: 35px;
-      margin-bottom: 20px;
-      text-align: center;
+.registrar-producto h4 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
 
-  }
+}
 
-  .controles {
-      width: 100%;
-      padding: 10px;
-      border-radius: 4px;
-      margin-bottom: 16px;
-      font-family: "calibri";
-      font-size: 18px;
+.controles {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: "calibri";
+    font-size: 18px;
 
-  }
+}
 
-  .boton {
-      width: 100%;
-      padding: 12px;
-      border: none;
-      color: white;
-      margin: 16px 0;
-      font-size: 20px;
-      background-color: rgb(43, 42, 42);
-  }
+.boton {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    color: white;
+    margin: 16px 0;
+    font-size: 20px;
+    background-color: rgb(43, 42, 42);
+}
 
-  /*estilos de pagina "modificar producto"*/
-  
-  .modificar-producto{
+.modificar-producto{
     width:800px;
     padding: 30px;
     margin:auto;
@@ -299,21 +373,13 @@ header {
 
 }
 
-.modificar-producto h4 {
-    font-size: 35px;
-    margin-bottom: 20px;
-    text-align: center;
-
-}
-
 .controles_modificar {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
     font-family: "calibri";
-    font-size: 18px;
-
+    font-size: 18px;  
 }
 
 .boton_modificar {
@@ -326,4 +392,5 @@ header {
     background-color: rgb(43, 42, 42);
 }
 
-  
+
+/*estilos de pagina "modificar producto"*/
