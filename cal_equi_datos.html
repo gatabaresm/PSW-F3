@@ -47,9 +47,31 @@
             class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
             style="--bs-scroll-height: 100px">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">
+              <a class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarScrollingDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
                 Administrador
               </a>
+              <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown">
+                  <li>
+                    <a class="dropdown-item" href="CrearBD.html">Crear Base de Datos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="CrearTabla.html">Crear Tabla</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="GenerarReportePDF.html">Generar reporte PDF</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="GenerarBackup.html">Generar Backup</a>
+                  </li>
+                </ul>
             </li>
             <li class="nav-item dropdown">
               <a
